@@ -1,0 +1,102 @@
+timestamp,log_message
+2024-12-17 01:00:05,kernel: [12456.78] Buffer I/O error on dev sda1 logical block 128902
+2024-12-17 01:15:22,sshd: Failed password for invalid user guest from 203.0.113.45 port 58221 ssh2
+2024-12-17 01:15:24,sshd: Failed password for invalid user guest from 203.0.113.45 port 58221 ssh2
+2024-12-17 01:15:26,sshd: Failed password for invalid user admin from 203.0.113.45 port 58221 ssh2
+2024-12-17 01:15:28,sshd: Failed password for invalid user admin from 203.0.113.45 port 58221 ssh2
+2024-12-17 01:15:30,sshd: Failed password for invalid user root from 203.0.113.45 port 58221 ssh2
+2024-12-17 01:15:35,sshd: PAM 5 more authentication failures; rhost=203.0.113.45
+2024-12-17 02:45:10,systemd-journald: Vacuuming done freed 0B (Disk space low)
+2024-12-17 03:20:00,auditd: Audit daemon is low on disk space for logging
+2024-12-17 04:10:12,sshd: ALERT brute_force: PAM 10 more authentication failures; rhost=203.0.113.45
+2024-12-17 05:30:45,kernel: [24567.12] sd 0:0:0:0: [sda] Write cache: enabled but undeterminable
+2024-12-17 06:12:01,sudo: user2 : TTY=pts/1 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/chmod 777 /etc/shadow
+2024-12-17 07:15:00,kernel: [28912.45] EXT4-fs (sda1): warning: mounting unchecked fs, running e2fsck is recommended
+2024-12-17 08:00:00,smartd: Device: /dev/sda [SAT] 4 Currently unreadable (pending) sectors
+2024-12-17 08:45:30,nginx: 198.51.100.12 - "GET /.env HTTP/1.1" 404
+2024-12-17 08:45:31,nginx: 198.51.100.12 - "GET /wp-admin/phpmyadmin HTTP/1.1" 404
+2024-12-17 08:45:32,nginx: 198.51.100.12 - "GET /config.php.bak HTTP/1.1" 404
+2024-12-17 09:22:15,kernel: [35671.01] EXT4-fs error (device sda1): ext4_add_entry:2311: error -28 (No space left on device)
+2024-12-17 10:05:00,sshd: Failed password for root from 185.12.33.9 port 41220 ssh2
+2024-12-17 10:05:02,sshd: Failed password for root from 185.12.33.9 port 41220 ssh2
+2024-12-17 10:05:05,sshd: Failed password for root from 185.12.33.9 port 41220 ssh2
+2024-12-17 11:30:12,fail2ban: [sshd] Ban 185.12.33.9
+2024-12-17 12:40:55,df: Filesystem /var/log is at 100% capacity
+2024-12-17 13:10:22,kernel: [45123.45] blk_update_request: I/O error dev sda sector 4561234
+2024-12-17 14:00:01,logrotate: error creating output file /var/log/syslog.1.gz: No space left on device
+2024-12-17 15:22:10,sshd: Invalid user test from 45.33.21.10 port 33412
+2024-12-17 15:22:12,sshd: Invalid user oracle from 45.33.21.10 port 33412
+2024-12-17 15:22:14,sshd: Invalid user postgres from 45.33.21.10 port 33412
+2024-12-17 16:45:30,sudo: user1 : COMMAND=/usr/bin/cat /etc/shadow
+2024-12-17 17:10:05,kernel: [58123.09] Aborting journal on device sda1-8
+2024-12-17 17:10:06,kernel: [58123.10] EXT4-fs (sda1): Remounting filesystem read-only
+2024-12-17 18:30:00,mysqld: Error writing file 'mysql-bin' (Errcode: 28 - No space left on device)
+2024-12-17 19:15:12,nginx: 91.241.11.4 - "POST /xmlrpc.php HTTP/1.1" 403
+2024-12-17 20:05:44,sshd: Failed password for root from 103.25.10.5 port 55122
+2024-12-17 20:05:46,sshd: Failed password for root from 103.25.10.5 port 55122
+2024-12-17 21:50:00,auditd: Audit backlog limit exceeded
+2024-12-17 22:10:12,kernel: [72123.44] sd 0:0:0:0: [sda] 4512 sectors remaining in volume
+2024-12-18 01:10:45,sshd: Failed password for invalid user support from 172.16.0.45
+2024-12-18 01:10:47,sshd: Failed password for invalid user support from 172.16.0.45
+2024-12-18 02:40:01,cron: failed to write to /tmp/cron.lock: No space left on device
+2024-12-18 03:15:22,nginx: 192.168.1.254 - "GET /admin/config.php.bak HTTP/1.1" 404
+2024-12-18 04:55:10,kernel: [95612.33] READ FPDMA QUEUED: status { DRDY ERR }, error { UNC }
+2024-12-18 06:12:30,sshd: Failed password for root from 88.192.4.1 port 49102
+2024-12-18 06:12:32,sshd: Failed password for root from 88.192.4.1 port 49102
+2024-12-18 07:45:00,systemd: Failed to start Rotation of log files (disk full)
+2024-12-18 08:30:15,sudo: user3 : TTY=pts/2 ; USER=root ; COMMAND=/usr/bin/passwd root
+2024-12-18 09:10:22,kernel: [11234.55] Buffer I/O error on dev sda1 logical block 998271
+2024-12-18 10:45:33,sshd: Failed password for root from 103.25.10.5 port 55122
+2024-12-18 11:22:10,df: Filesystem / is at 98% capacity
+2024-12-18 12:05:00,nginx: 10.0.0.55 - "GET /etc/passwd HTTP/1.1" 403
+2024-12-18 13:40:12,sshd: Failed password for invalid user testuser from 212.10.44.1
+2024-12-18 14:15:05,kernel: [124561.09] UNC error at LBA 4512341
+2024-12-18 15:30:00,smartd: Device: /dev/sda, SMART Failure: Drive reliability reduced
+2024-12-18 16:55:10,sshd: Failed password for root from 45.33.21.10 port 33412
+2024-12-18 17:12:01,sudo: user1 : COMMAND=/bin/bash (interactive root shell)
+2024-12-18 18:40:44,rsyslogd: write error 28: No space left on device
+2024-12-18 19:20:00,kernel: [141221.11] ata1.00: failed command: WRITE FPDMA QUEUED
+2024-12-18 20:45:12,sshd: Possible SSH brute force attack from 45.33.21.10 (30 failures)
+2024-12-18 21:30:15,nginx: 198.51.100.45 - "GET /cgi-bin/test.cgi HTTP/1.1" 404
+2024-12-18 22:55:01,auditd: Disk partition for audit logs is full
+2024-12-19 01:10:45,kernel: [167812.33] FATAL: sda1 has reached end of life sectors
+2024-12-19 02:40:01,systemd: Failed to write core dump: No space left on device
+2024-12-19 03:15:22,sshd: Failed password for invalid user user from 5.188.10.4
+2024-12-19 04:55:10,nginx: 5.188.10.4 - "GET /shell?cmd=id HTTP/1.1" 403
+2024-12-19 04:55:12,nginx: 5.188.10.4 - "GET /shell?cmd=ls HTTP/1.1" 403
+2024-12-19 06:12:30,sshd: Failed password for invalid user user from 5.188.10.4
+2024-12-19 07:45:00,kernel: [181234.00] I/O error dev sda sector 882713
+2024-12-19 08:30:15,sudo: user4 : USER=root ; COMMAND=/usr/bin/find / -perm -4000
+2024-12-19 09:10:22,df: Filesystem /home is at 99% capacity
+2024-12-19 10:45:33,sshd: Failed password for root from 185.12.33.9
+2024-12-19 11:22:10,smartd: Device: /dev/sda, 12 offline uncorrectable sectors
+2024-12-19 12:05:00,nginx: 10.0.0.55 - "GET /config.php.swp HTTP/1.1" 404
+2024-12-19 13:40:12,sshd: Failed password for invalid user ftp from 80.80.80.80
+2024-12-19 14:15:05,kernel: [211234.55] ata1: hardware reset failed
+2024-12-19 15:30:00,mysqld: Database temporary table space full
+2024-12-19 16:55:10,sshd: Failed password for root from 80.80.80.80
+2024-12-19 17:12:01,sudo: user2 : COMMAND=/usr/sbin/tcpdump -i eth0
+2024-12-19 18:40:44,kernel: [231123.01] EXT4-fs (sda1): error count since last check: 45
+2024-12-19 19:20:00,sshd: Connection closed by authenticating user root 80.80.80.80 [preauth]
+2024-12-19 20:45:12,fail2ban: [sshd] Ban 80.80.80.80
+2024-12-19 21:30:15,nginx: 193.10.11.2 - "GET /debug/default/view HTTP/1.1" 404
+2024-12-19 22:55:01,df: CRITICAL: /var is at 100% capacity
+2024-12-20 01:10:45,kernel: [251234.11] sd 0:0:0:0: [sda] FAILED Result: hostbyte=DID_BAD_TARGET
+2024-12-20 02:40:01,systemd: Cannot write to /var/lib/systemd/catalog: No space left on device
+2024-12-20 03:15:22,sshd: Failed password for invalid user webmaster from 41.10.5.2
+2024-12-20 04:55:10,nginx: 41.10.5.2 - "GET /admin/upload.php HTTP/1.1" 403
+2024-12-20 06:12:30,sshd: Failed password for root from 41.10.5.2
+2024-12-20 07:45:00,kernel: [281234.99] ata1: SError: { DevExch }
+2024-12-20 08:30:15,sudo: user5 : USER=root ; COMMAND=/usr/bin/nc -l -p 4444 -e /bin/sh
+2024-12-20 09:10:22,df: Filesystem /tmp is at 100% capacity
+2024-12-20 10:45:33,sshd: Failed password for root from 185.12.33.9
+2024-12-20 11:22:10,smartd: Device: /dev/sda, SMART usage limit exceeded
+2024-12-20 12:05:00,nginx: 10.0.0.55 - "GET /backup.sql HTTP/1.1" 404
+2024-12-20 13:40:12,sshd: Failed password for invalid user mysql from 190.10.10.10
+2024-12-20 14:15:05,kernel: [312456.22] EXT4-fs (sda1): panic forced after error
+2024-12-20 15:30:00,mysqld: Could not create temporary file: No space left on device
+2024-12-20 16:55:10,sshd: Failed password for root from 190.10.10.10
+2024-12-20 17:12:01,sudo: user3 : COMMAND=/usr/bin/nmap -sS 192.168.1.0/24
+2024-12-20 18:40:44,kernel: [331234.00] end_request: I/O error, dev sda, sector 122345
+2024-12-20 19:20:00,sshd: Possible intrusion attempt from 190.10.10.10
+2024-12-20 20:45:12,fail2ban: [sshd] Ban 190.10.10.10

